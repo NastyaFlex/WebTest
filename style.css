@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Titillium Web';
+  margin: 0px;
+}
+
+.header {
+  width: auto;
+  height: auto;
+  background-color: #87509c;
+  padding: 30px;
+}
+
+.cap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.big_text {
+  margin-left: 120px;
+}
+
+.paragraf {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.paragraf:hover {
+  background-color: #643a79;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.puper_block {
+  height: auto;
+  width: auto;
+  background-color: #87509c;
+  padding: 60px 90px 60px 90px;
+}
+
+.text {
+  text-align: center;
+  font-size: 35px;
+  color: #fff;
+}
+
+.orange_button {
+  background-color: #eb7d4b;
+  border-radius: 5px;
+  color: #fff;
+  height: 50px;
+  width: 200px;
+  margin: 50px auto 50px auto;
+  box-shadow: 0px 5px #c86a40;
+  border: none;
+}
+
+.сontainer_for_buttons {
+  display: flex;
+}
+
+.blue_block {
+  background-color: #17c2a4;
+  width: auto;
+  height: auto;
+  padding-top: 110px;
+}
+
+.text_in_blue_block {
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+}
+
+.photo_palka {
+  text-align: center;
+}
+
+.text_in_blue_block2 {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.container {
+  margin-top: 80px;
+  padding-left: 20px;
+  padding-bottom: 100px;
+  padding-right: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 40px;
+}
+
+.big_text_in_container {
+  font-size: 30px;
+  color: #fff;
+}
+
+.little_text_in_container {
+  font-size: 20px;
+  color: #fff;
+}
+
+.center_container {
+  text-align: center;
+}
+
+.indent {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.gray_block {
+  width: auto;
+  width: auto;
+  background-color: #e7f1f8;
+  padding-top: 110px;
+}
+
+.text_in_gray_block {
+  text-align: center;
+  font-size: 35px;
+  color: #3c4761;
+}
+
+.text_in_gray_block2 {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.container_gray {
+  margin-top: 80px;
+  padding-left: 20px;
+  padding-bottom: 100px;
+  padding-right: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 40px;
+}
+
+.blue_text {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: #3cbee8;
+}
+
+.block_for_images {
+  margin-top: 20px;
+}
+
+.four_ikons {
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+}
+
+.three_ikons {
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+}
+
+.white_block {
+  width: auto;
+  height: auto;
+  padding-top: 110px;
+  padding-left: 200px;
+  padding-right: 100px;
+  margin-bottom: 100px;
+}
+
+.container_for_circle {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 80px;
+}
+
+.orange_block {
+  width: auto;
+  height: auto;
+  background-color: #ffdd99;
+  padding-top: 110px;
+}
+
+.four_icons {
+  background-color: #ebc985;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.all_web_apps_icons_block {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.photo_screen {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+
+.center_text_in_photo {
+  text-align: center;
+}
+
+.green_button {
+  background-color: #17c2a4;
+  border-radius: 5px;
+  color: #fff;
+  height: 50px;
+  width: 200px;
+  box-shadow: 0px 5px #14a58c;
+  border: none;
+  margin-top: 60px;
+  margin-bottom: 110px;
+}
+
+.container_for_green_button {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.pink_block{
+  width: auto;
+  height: auto;
+  padding-top: 110px;
+  background-color: #d74680;
+  color: #fff;
+}
+.chanel{
+  display: grid;
+  grid-template-columns: 1fr 200fr;
+  gap: 40px;
+  height: 200px;
+  width: 400px;
+}
+.a_block_with_information{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+  margin-top: 60px;
+}
+.text_color_yellow{
+  color: #facd96;
+}
+.text_cursive{
+  font-style: italic;
+}
+.text_in_pink_block {
+  text-align: center;
+  font-size: 35px;
+  color: #fff;
+}
+
+.text_in_pink_block2 {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+}
