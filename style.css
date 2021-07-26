@@ -6,7 +6,6 @@
 
 body {
   font-family: 'Titillium Web';
-  margin: 0px;
 }
 
 .header {
@@ -28,6 +27,8 @@ body {
   display: flex;
   justify-content: center;
   margin: auto;
+  list-style-type: none;
+  gap: 40px;
 }
 
 .big_text {
@@ -38,11 +39,14 @@ body {
   margin-right: 50px;
   cursor: pointer;
 }
-
-.paragraf:hover {
+.color_link{
+  color: #fff;
+  padding: 5px;
+  text-decoration: none
+}
+.color_link:hover {
   background-color: #643a79;
   border-radius: 5px;
-  padding: 5px;
 }
 
 .puper_block {
@@ -86,7 +90,7 @@ body {
   font-size: 35px;
 }
 
-.photo_palka {
+.images_palka {
   text-align: center;
 }
 
@@ -182,15 +186,15 @@ body {
   width: auto;
   height: auto;
   padding-top: 110px;
-  padding-left: 200px;
+  padding-left: 100px;
   padding-right: 100px;
   margin-bottom: 100px;
 }
 
 .container_for_circle {
-  display: grid;
+  display: flex;
   justify-content: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 120px;
   margin-top: 80px;
 }
 
@@ -207,8 +211,13 @@ body {
   width: 100px;
   border-radius: 5px;
   text-align: center;
+  color:#393939;
+  padding: 5px 0px 0px 0px;
+  text-decoration: none;
 }
-
+.four_icons:hover{
+  background-color: #FFF;
+}
 .all_web_apps_icons_block {
   display: flex;
   justify-content: center;
@@ -216,7 +225,7 @@ body {
   margin-top: 30px;
 }
 
-.photo_screen {
+.images_screen {
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -224,7 +233,7 @@ body {
   justify-content: center;
 }
 
-.center_text_in_photo {
+.center_text_in_images {
   text-align: center;
 }
 
@@ -250,7 +259,8 @@ body {
 .pink_block{
   width: auto;
   height: auto;
-  padding-top: 110px;
+  padding-top: 120px;
+  padding-bottom: 130px;
   background-color: #d74680;
   color: #fff;
 }
@@ -259,12 +269,12 @@ body {
   grid-template-columns: 1fr 200fr;
   gap: 40px;
   height: 200px;
-  width: 400px;
+  width: 420px;
 }
 .a_block_with_information{
   display: flex;
   flex-wrap: wrap;
-  gap: 60px;
+  gap: 100px;
   justify-content: center;
   margin-top: 60px;
 }
@@ -302,6 +312,7 @@ body {
   width: 311px;
   height: 42px;
   border-radius: 5px;
+  color: #fff;
 }
 
 .color_blue::placeholder{
@@ -329,7 +340,7 @@ body {
   box-shadow: 0px 5px #299ec5;
   border: none;
 }
-.dark_blue{
+.dark_blue_block{
   background-color: #344b8e;
   display: flex;
   justify-content: center;
@@ -338,7 +349,22 @@ body {
   padding-top: 50px;
   font-size: 23px;
 }
-.color_link{
+.link_footer{
   color: #fff;
-  text-decoration: none
+  text-decoration: none;
+}
+.link_footer:hover {
+  color: #30bae7; /* Цвет ссылки при наведении на нее курсора мыши */
+  text-decoration: none;
+ }
+.dark_text{
+  color: #3c4761;
+}
+.text_and_cricle{
+  text-align: center;
+}
+.text_under_cricle{
+  margin-top: 20px;
+  color: #3c4761;
+  font-size: 20px;
 }
