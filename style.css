@@ -29,6 +29,7 @@ body {
   margin: auto;
   list-style-type: none;
   gap: 40px;
+  flex-wrap: wrap;
 }
 
 .big_text {
@@ -309,7 +310,7 @@ body {
 .color_blue{
   background-color: #273a71;
   border: none;
-  width: 311px;
+  width: 50%;
   height: 42px;
   border-radius: 5px;
   color: #fff;
@@ -326,10 +327,16 @@ body {
   margin-bottom: 25px;
 }
 .big_input{
-  width: 652px;
-  height: 84px;
+  background-color: #273a71;
+  border: none;
+  width: 31%;
+  height: 42px;
+  border-radius: 5px;
+  color: #fff;
 }
-
+.big_input::placeholder{
+  color: #fff;
+}
 .blue_button{
   background-color: #30bae7;
   border-radius: 5px;
@@ -348,6 +355,7 @@ body {
   padding-bottom: 40px;
   padding-top: 50px;
   font-size: 23px;
+  flex-wrap: wrap;
 }
 .link_footer{
   color: #fff;
